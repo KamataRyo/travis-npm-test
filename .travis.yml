@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: npm
+  email: mugil.cepahalus+npmjs.com@gmail.com
+  on:
+    tags: true
+  api_key:
+    secure: xuDgJqsn1yNQVHXUM5VmLMSFGSVVjSyQw884ZKTtoUq+//5jX/2UadEZBE6WU57a/7ZfZeiP0xEDAuOOIDB/9RN8jZyJXP4VpN+JappqlGrJBt6inOwHMRCc1urWx2hSKBEm2Udrw+2k22JY/ShOuTdnDcLXefrJ/C4Fix/Z25vpoADBSC2bkPflxF12N+72x3XPXfLCwJ5DoOGXfDsJf0V14hgDsuefGJ5Z4Yr277gkHyki47w1iCmX3GEmpyz9YLMey+DQmnHNFqgjCPeVhoByJfxQ2WXg9peexWvcQLEvCAMI3VDyyQBTzb+r9audcaa/0iUbemKpJ93uLbhd53xRgZfM2myhyYQ8qiby+jp1QjszBdRT9DnPQPQXviE3AU7CAEwVQKMr0Ccb9kH0evKgZUd5w8hkE8SYQnq+CL0OaDZqSlXuRfRgVdKRxvSk5D/t71AAl8lCwz2b30jyPR5lAZ2Gqxucu1wp7fUHP5Kg6hpDpFnyhy+JMSnWEqEBjeSD55SCGshKYH8NG+evkEVcQ7siRbgXFwmgzBnFq5MQxzMv4dgJccMhqZEbN4Up6wSKBrv9fCdsrOVX4mREkkaxVvNdj6iDr8Cjmox8osVJQdxMXV8jyMq+S1eXU85fsGBKfyfNccYbz711PRH7FWbYJo6FnaLuTUp53x/s9mQ=
