@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
-    "postversion": "git push origin $(git tag -l | tail -n1)"
+    "postversion": "git push origin master && git push origin $(git tag -l | tail -n1)"
   },
   "author": "",
   "license": "MIT",
