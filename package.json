@@ -7,7 +7,7 @@
     "postversion": "git push origin $(git tag -l | tail -n1)"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "description": ""
 }
